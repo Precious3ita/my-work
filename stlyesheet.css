@@ -1,0 +1,514 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+/* *,
+  *::before *::after {
+      box-sizing: border-box;
+  } */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  display: flex;
+  background: #fffdf8;
+}
+
+.sidebar-bg {
+  width: 132px;
+  height: 1242px;
+  background: #fffdf8;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.log-bg {
+  width: 65px;
+  height: 38px;
+  padding: 10px;
+}
+
+.ina {
+  width: 39.19px;
+  height: 22px;
+  padding: 18px;
+  padding-top: 18px;
+}
+
+.inner-nav-bar {
+  width: 84px;
+  height: 424px;
+  top: 76px;
+  left: 24px;
+}
+
+.small-boxs {
+  width: 84px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-boxs {
+  width: 84px;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff4d5;
+
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  text-align: center;
+}
+
+.inner-small-boxs {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  text-align: center;
+}
+
+.location-hours,
+.mobile-nav-bar {
+  display: none;
+}
+
+main {
+  width: 1227px;
+  height: 1242px;
+}
+
+.small-inner-box {
+  width: 80px;
+  height: 80px;
+  left: 1360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-small-box {
+  width: 642px;
+  height: 922px;
+  top: 76px;
+  border-left: 424px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 250px;
+  /* background-color: aqua; */
+}
+
+.hi-box {
+  width: 464.38px;
+  height: 134px;
+  /* top: 76px;
+      left: 513px; */
+  border-radius: 8px 0px 0px 0px;
+  margin: 0px 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hi-imade {
+  width: 420.01px;
+  height: 41px;
+
+  font-family: Satoshi;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.5px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.get-started {
+  width: 464.38px;
+  height: 24px;
+  top: 128px;
+  left: 513px;
+
+  font-family: Satoshi;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  text-align: center;
+}
+
+.center-box {
+  width: 642px;
+  height: 316px;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  /*  justify-content: center; */
+  /* background-color: rgb(27, 53, 53); */
+}
+
+.popular-text {
+  width: 281px;
+  height: 32px;
+
+  font-family: Satoshi;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  letter-spacing: -0.04em;
+}
+
+.streets-1 {
+  margin-top: 24px;
+  width: 640px;
+  height: 120px;
+  column-gap: 20px;
+  display: flex;
+}
+
+.box-1 {
+  width: 200px;
+  height: 120px;
+  top: 346px;
+  left: 424px;
+  border-radius: 10px 0px 0px 0px;
+  background-color: #353431;
+  border-radius: 10px;
+}
+
+.mko-box {
+  width: 128px;
+  height: 38px;
+  top: 362px;
+  left: 440px;
+  margin: 10px;
+}
+
+.MKO-Abiola {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.off-lantern {
+  width: 185px;
+  height: 38px;
+  top: 362px;
+  left: 440px;
+  margin-top: 25px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.off {
+  width: 23px;
+  height: 14px;
+
+  font-family: Satoshi;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  align-self: end;
+}
+
+.lantern {
+  width: 14.59px;
+  height: 30px;
+  top: 424px;
+  left: 593px;
+}
+
+.box-2 {
+  width: 200px;
+  height: 120px;
+  top: 346px;
+  left: 424px;
+  border-radius: 10px 0px 0px 0px;
+  background-color: #ffecbc;
+  border-radius: 10px;
+}
+
+.banana-island-box {
+  width: 128px;
+  height: 38px;
+  top: 362px;
+  left: 440px;
+  margin: 10px;
+}
+
+.banana-island {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.8px;
+  text-align: left;
+  color: #353431;
+}
+
+.bulb-on {
+  width: 185px;
+  height: 38px;
+  top: 362px;
+  left: 440px;
+  margin-top: 25px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.on {
+  width: 23px;
+  height: 14px;
+
+  font-family: Satoshi;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  text-align: left;
+  color: #353431;
+  display: flex;
+  align-self: end;
+}
+
+.street-2 {
+  width: 640px;
+  height: 120px;
+  margin-top: 24px;
+  column-gap: 20px;
+  display: flex;
+}
+
+.final-box {
+  width: 642px;
+  height: 312px;
+  /* top: 686px;
+      left: 424px; */
+  border: 1px 0px 0px 0px;
+  margin-top: 70px;
+  display: flex;
+}
+
+.highest-ranked {
+  width: 253px;
+  height: 32px;
+  display: flex;
+  margin: 60px;
+
+  font-family: Satoshi;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #353431;
+}
+
+table {
+  width: 642px;
+  height: 22px;
+  margin-top: 60px;
+}
+
+td,
+th {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  padding: 8px;
+  color: #353431cc;
+}
+
+.black {
+  color: #353431;
+}
+
+.right-bg {
+  width: 81px;
+  height: 1242px;
+  left: 1359px;
+  background-color: #fffbf0;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-bg-inner-box {
+  width: 81px;
+  height: 221px;
+  left: 1359px;
+}
+
+@media (max-width: 768px) {
+
+  .sidebar-bg,
+  .right-bg {
+    display: none;
+  }
+
+  .mobile-nav-bar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fffdf8;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+
+  }
+
+  .main-small-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+
+  }
+
+  .center-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    width: 390px;
+    height: 844px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* background-color: brown; */
+  }
+
+  .main-section {
+    overflow: hidden;
+  }
+
+
+
+  .hi-box {
+    width: 256px;
+    height: 200px;
+    border-radius: 8px;
+    margin-left: 188px;
+    margin-right: 188px;
+  }
+
+  .hi-imade {
+    width: 254px;
+    height: 68px;
+    padding-left: 17px;
+    padding-right: 17px;
+
+    font-family: Satoshi;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.44px;
+    letter-spacing: -0.04em;
+    text-align: center;
+  }
+
+  .get-started {
+    width: 256px;
+    height: 44px;
+    margin-left: 67px;
+    margin-right: 67px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  .streets-1 {
+    max-width: 390px;
+    height: 120px;
+    margin-bottom: -10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+  }
+
+  .bulb-on,
+  .off-lantern {
+    width: auto;
+  }
+
+  .street-2 {
+    display: none;
+  }
+
+  .final-box,
+  .ranking {
+    margin-top: 0px;
+    /* margin-left: 67px;
+    margin-right: 65px; */
+  }
+
+  table {
+    /* margin-top: 0; */
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  tbody {
+    position: relative;
+  }
+
+  th,
+  thead,
+  thead tr {
+    display: none;
+  }
+
+  tr {
+    width: 358px;
+    height: 77px;
+    display: block;
+    max-width: 20rem;
+    margin: 0 auto 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+
+
+  tr>td:nth-child(3) {
+    display: none;
+  }
+
+  .location-hours {
+    display: block;
+    color: rgba(53, 52, 49, 0.7);
+    font-size: 0.875rem;
+    margin-left: 0;
+  }
+}
